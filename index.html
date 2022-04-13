@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3-10 | 🏁 Entrega - Funções e Arrays</title>
+</head>
+<body>
+    <h1>🏁 Entrega - Funções e Arrays</h1>
+
+
+    <script>
+        
+        
+        
+        
+
+
+
+        function position(firstPlace, secondPlace, lastPlace){ 
+            let positionFinal = ["Daniel","Rafael","Manoel"];
+            
+            if ((positionFinal[0] === "Daniel" && positionFinal[1] === "Manoel" && positionFinal[2] === "Rafael") || (positionFinal[0] === "Manoel" && positionFinal[1] === "Daniel" && positionFinal[2] === "Rafel")){
+               
+                return "1º- Colocado  => Daniel, 2º- Colacado => Manoel, 3º- Colacado => Rafael"
+
+            } else if ((positionFinal[0] === "Daniel" && positionFinal[1] === "Rafael" && positionFinal[2] === "Manoel") || (positionFinal[0] === "Rafael" && positionFinal[1] === "Daniel" && positionFinal[2] === "Manoel")){
+                
+                return "1º- Colocado  => Daniel, 2º- Colacado => Manoel, 3º- Colacado => Rafael"
+
+
+            } else if (positionFinal[0] === "Manoel" && positionFinal[1] === "Rafael" && positionFinal[2] === "Daniel"){
+                
+                return "1º- Colocado  => Manoel, 2º- Colacado => Daniel, 3º- Colacado => Rafael"
+
+
+            } else {
+
+                
+                return "1º- Colocado  => Rafael, 2º- Colacado => Daniel, 3º- Colacado => Manoel"
+            }
+        
+        
+        
+            
+        
+        }
+        
+                console.log(position())
+                         
+                           
+            
+        
+    </script>
+    
+</body>
+</html>
